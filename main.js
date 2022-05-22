@@ -11,3 +11,9 @@ let secondCount = Number(prompt("Хотите узнать количество 
 secondCount *=60 * 60;
 
 alert(secondCount); 
+
+// 2. Создайте переменную `myNumber` и присвойте ей значение 2022. Выведите значение этой переменной на экран с помощью метода **alert.**
+
+let myNumber = `"It is 2022 now"`;
+
+alert(myNumber);
