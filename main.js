@@ -17,3 +17,11 @@ alert(secondCount);
 let myNumber = `"It is 2022 now"`;
 
 alert(myNumber);
+
+// 4. Даны два числа `a, b`. Написать программу, которая считает среднее арифметическое двух чисел.
+
+let a = 2022;
+let b = 2022;
+let averageNumber = (a + b) / 2;
+
+console.log(averageNumber);
