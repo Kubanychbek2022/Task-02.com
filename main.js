@@ -80,3 +80,9 @@ alert(numeric);
       postImg: "https://www.advantour.com/img/kyrgyzstan/bishkek/bishkek.jpg",
       tagPost: '<img src=" ">',
     };
+
+
+
+    // 8. Создайте массив с именами пользователей.
+
+    let users = ["Ilon Mask", "Peter Nicholson", "Christy Nicholson"];
