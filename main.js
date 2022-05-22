@@ -94,3 +94,16 @@ alert(numeric);
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-9oqkvUF7uSdAM4Vs0Wn2Y4SRuYN85K-cBA&usqp=CAU",
       "https://st-1.akipress.org/st_gallery/4/772604.c2d590a5b031d53cc9add60339607368.jpg",
     ];
+
+
+
+    // 10. Создайте массив содержащий объекты описывающие блог-посты (схема объектов идентична как в пункте 7.
+
+    let blogpost = [
+      {postName: "Bishkek"},
+      {postAuthor: "Tursunbekov K T"},
+      {publishedAt: 2022},
+      {postBody: "Bishkek  is the capital of Kyrgyzstan , a city of republican significance , the administrative center of the Chui region . The largest city in Kyrgyzstan in terms of population - 1,088,900 people. (as of January 1, 2021) [2] , the main transport hub, industrial and administrative center of the country. Modern cultural, political and economic center of the republic."},
+      {postImg: "https://www.advantour.com/img/kyrgyzstan/bishkek/bishkek.jpg"},
+      {tagPost: '<img src=" ">'},
+    ];
