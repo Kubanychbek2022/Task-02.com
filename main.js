@@ -5,3 +5,9 @@ let greeting = `Hello ${askName} My name is Kubanycbek Tursunbekov welcome to my
 
 document.write(greeting);
 
+// 1. Напишите программу, которая считает **количество секунд** в часе.
+
+let secondCount = Number(prompt("Хотите узнать количество секунд в часе? \nТогда введите любое число."));
+secondCount *=60 * 60;
+
+alert(secondCount); 
