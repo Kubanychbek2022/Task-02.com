@@ -86,3 +86,11 @@ alert(numeric);
     // 8. Создайте массив с именами пользователей.
 
     let users = ["Ilon Mask", "Peter Nicholson", "Christy Nicholson"];
+
+
+    // 9. Создайте массив с url адресами на разные картинки.
+
+    let imgUrl = [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-9oqkvUF7uSdAM4Vs0Wn2Y4SRuYN85K-cBA&usqp=CAU",
+      "https://st-1.akipress.org/st_gallery/4/772604.c2d590a5b031d53cc9add60339607368.jpg",
+    ];
