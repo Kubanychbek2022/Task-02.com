@@ -5,18 +5,25 @@ let greeting = `Hello ${askName} My name is Kubanycbek Tursunbekov welcome to my
 
 document.write(greeting);
 
+
+
 // 1. Напишите программу, которая считает **количество секунд** в часе.
+
 
 let secondCount = Number(prompt("Хотите узнать количество секунд в часе? \nТогда введите любое число."));
 secondCount *=60 * 60;
 
 alert(secondCount); 
 
+
+
 // 2. Создайте переменную `myNumber` и присвойте ей значение 2022. Выведите значение этой переменной на экран с помощью метода **alert.**
 
 let myNumber = `"It is 2022 now"`;
 
 alert(myNumber);
+
+
 
 // 4. Даны два числа `a, b`. Написать программу, которая считает среднее арифметическое двух чисел.
 
@@ -26,6 +33,8 @@ let averageNumber = (a + b) / 2;
 
 console.log(averageNumber);
 
+
+
 // 5. Спросите пользователя ввести любое число. Ваша задача вывести следующий по счету число. 
     
 //   *Пример: Пользователь вводит число 10. Программа выводит число 11.*
@@ -34,3 +43,21 @@ let numeric = Number(prompt("Введите любое число."));
 numeric ++;
 
 alert(numeric);
+
+
+
+/* 6. Создайте объект описывающий пользователя, в данном объекте должны быть следующие ключи:
+    - Имя
+    - Возраст
+    - Список друзей
+    - Почтовый адрес
+    - Электронный адрес */
+
+    let user = {
+      name: "Ilon",
+      age: 50,
+      friendList: ["Peter Nicholson", "Christy Nicholson"],
+      gmail: "mask.com",
+    };
+
+    console.log(user.name);
