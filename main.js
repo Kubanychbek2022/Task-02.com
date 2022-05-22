@@ -61,3 +61,22 @@ alert(numeric);
     };
 
     console.log(user.name);
+
+
+
+    /* 7. Создайте объект описывающий блог-пост на сайте:
+    - Название поста
+    - Автор поста
+    - Дата публикации поста
+    - Тело поста (содержит текст поста)
+    - Картинка поста (содержит url картинки)
+    - Теги поста */
+
+    const blogPost = {
+      postName: "Bishkek",
+      postAuthor: "Tursunbekov K T",
+      publishedAt: 2022,
+      postBody: "Bishkek  is the capital of Kyrgyzstan , a city of republican significance , the administrative center of the Chui region . The largest city in Kyrgyzstan in terms of population - 1,088,900 people. (as of January 1, 2021) [2] , the main transport hub, industrial and administrative center of the country. Modern cultural, political and economic center of the republic.",
+      postImg: "https://www.advantour.com/img/kyrgyzstan/bishkek/bishkek.jpg",
+      tagPost: '<img src=" ">',
+    };
